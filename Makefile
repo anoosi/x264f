@@ -76,6 +76,7 @@ endif
 
 ifneq ($(findstring HAVE_FFMS 1, $(CONFIG)),)
 SRCCLI += input/ffms.c
+SRCCLI += filters/video/subtitles.c
 endif
 
 ifneq ($(findstring HAVE_GPAC 1, $(CONFIG)),)
