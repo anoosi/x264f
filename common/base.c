@@ -420,6 +420,7 @@ REALIGN_STACK void x264_param_default( x264_param_t *param )
     param->i_opencl_device = 0;
     param->opencl_device_id = NULL;
     param->psz_clbin_file = NULL;
+    param->filters.b_sub = 0;
     param->i_avcintra_class = 0;
     param->i_avcintra_flavor = X264_AVCINTRA_FLAVOR_PANASONIC;
 }
